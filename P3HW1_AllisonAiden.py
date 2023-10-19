@@ -1,5 +1,6 @@
-# I was supposed to put a comment here
-# My Last Name
+#Aiden Allison
+#10/19/2023
+#debugging if else statements
 
 
 # This program takes a number grade , determines average and displays letter grade for average.
@@ -23,6 +24,11 @@ high_grade = max(grades)
 sum_grade = sum(grades)
 avg = (sum_grade/6)
 
+#Output condtions
+print(f"Lowest grade: {low_grade}")
+print(f"Highest grade: {high_grade}")
+print(f"Sum of Grades: {sum_grade}")
+print(f"Average: {avg}")
 # determine letter grade for average
 
 
@@ -39,6 +45,11 @@ else:
                 print('Your grade is: D')
             else:
                 print('Your grade is: F') 
+
+
+
+
+
 
 
 
