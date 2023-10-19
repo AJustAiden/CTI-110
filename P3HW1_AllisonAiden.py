@@ -34,18 +34,14 @@ print(f"Average: {avg}")
 
 if avg >= 90:
         print('Your grade is: A')
-else:
-    if avg >= 80:
+elif avg >= 80:
         print('Your grade is: B')
-    else:
-        if avg >= 70:
-            print('Your grade is: C')
-        else:
-            if avg >= 60:
-                print('Your grade is: D')
-            else:
-                print('Your grade is: F') 
-
+elif avg >= 70:
+         print('Your grade is: C')
+elif avg >= 60:
+        print('Your grade is: D')
+else:
+        print('Your grade is: F') 
 
 
 
